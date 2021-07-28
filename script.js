@@ -9,7 +9,7 @@ function getRandomNumber (min, max){
 const theNeededNumber = getRandomNumber(0,100);
 console.log(theNeededNumber);
 let question1;
-let i=0;
+let i=0; 
 while(i<10){
     question1 = prompt ('Dear friend, I invite you to guess the number ( from 0 to 100) which I am thinking about! Please write it down ✍');
     if (question1-theNeededNumber >=50 || theNeededNumber-question1>=50) {
