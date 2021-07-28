@@ -25,5 +25,5 @@ while(i<10){
     } else if (question1-theNeededNumber === 0 || theNeededNumber-question1 === 0) {
         alert ('You are a winner!');
         break;
-    }
+    };
 }
