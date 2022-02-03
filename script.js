@@ -26,4 +26,5 @@ while(i<10){
         alert ('You are a winner!');
         break;
     };
+    document.querySelector()
 }
